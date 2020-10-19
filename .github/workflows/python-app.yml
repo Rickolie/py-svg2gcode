@@ -25,4 +25,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Run svg2gcode
       run: |
-        python svg2gcode.py
+        python github/Rickolie/py-svg2gcode/svg2gcode.py
